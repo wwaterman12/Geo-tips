@@ -27,10 +27,9 @@ function myMap() {
     //   });
     // }
 
-  })
-}
+  }
 
-markers = [];
+let markers = [];
 
 function placeMarker(map, location) {
   let marker = new google.maps.Marker({
